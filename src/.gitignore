@@ -1,2 +1,4 @@
-# This one should not change on github
-config.ini
+# Remove VS files
+*.phpproj*
+composer.json
+vendor/
