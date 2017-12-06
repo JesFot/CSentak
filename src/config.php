@@ -2,14 +2,37 @@
 
 $local = false;
 
-$private_folder = '../../private/csentak';
+$private_folder = '../../private/csentak/';
 
 $ini_file = parse_ini_file(($local ? '' : $private_folder) . 'config.ini');
 
 function getMailContent($name, $project_name, $target_name)
 {
-	return '
-<html>
+    return '
+<div>
+    <p><span style="color:red">---====================================================---</span></p>
+    <p><span style="color:red">---      Ce message est à destination de ' . $name . '   ---</span></p>
+    <p><span style="color:red">---====================================================---</span></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>Hello,</p>
+    <p></p>
+    <p>Le tirage au sort du projet ' . $project_name . ' vous a associé à : ' . $target_name . '.</p>
+    <div style="margin:2px 0px 0px;font-size:12.8px"><div tabindex="0"></div></div>
+    <div>
+        <span>
+            <p></p>
+            <p>Cet email est envoyé par : <a href="http://csentak.fermedufariol.fr/" target="_blank">csentak.fermedufariol.fr</a> le site qui vous permet de créer vos tirages au sort en toute simplicité.</p>
+        </span>
+    </div>
+</div>';
+    /*return '
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
@@ -645,7 +668,7 @@ function getMailContent($name, $project_name, $target_name)
 </xml><![endif]-->
 <style>
 <!--
- /* Font Definitions */
+ / * Font Definitions * /
  @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
@@ -675,7 +698,7 @@ function getMailContent($name, $project_name, $target_name)
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
 	mso-font-signature:-536870145 717749759 22 0 131231 0;}
- /* Style Definitions */
+ / * Style Definitions * /
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
 	mso-style-qformat:yes;
@@ -771,7 +794,7 @@ div.WordSection1
 </style>
 <!--[if gte mso 10]>
 <style>
- /* Style Definitions */
+ / * Style Definitions * /
  table.MsoNormalTable
 	{mso-style-name:"Tableau Normal";
 	mso-tstyle-rowband-size:0;
@@ -828,14 +851,14 @@ associé à&nbsp;: ' . $target_name . '.<o:p></o:p></p>
 <p class=MsoPlainText><o:p>&nbsp;</o:p></p>
 
 <p class=MsoPlainText>Cet email est envoyé par&nbsp;: <a
-href="http://****************.fr/">****************.fr</a> le site
+href="http://csentak.fermedufariol.fr/">csentak.fermedufariol.fr</a> le site
 qui vous permet de créer vos tirages au sort en toute simplicité.<o:p></o:p></p>
 
 </div>
 
 </body>
 
-</html>';
+</html>';*/
 }
 
 ?>
