@@ -1,4 +1,0 @@
-# Remove VS files
-*.phpproj*
-composer.json
-vendor/
