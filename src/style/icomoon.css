@@ -1,0 +1,11 @@
+@font-face
+{
+	font-family: 'icomoon';
+	src: url('http://unicorn-ui.com/buttons/fonts/icomoon/fonts/icomoon.eot?wuirft');
+	src: url('http://unicorn-ui.com/buttons/fonts/icomoon/fonts/icomoon.eot?iefixwuirft') format('embedded-opentype'),
+			url('http://unicorn-ui.com/buttons/fonts/icomoon/fonts/icomoon.woff?wuirft') format('woff'),
+			url('http://unicorn-ui.com/buttons/fonts/icomoon/fonts/icomoon.ttf?wuirft') format('truetype'),
+			url('http://unicorn-ui.com/buttons/fonts/icomoon/fonts/icomoon.svg?wuirft#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
