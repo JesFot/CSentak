@@ -800,6 +800,41 @@ div.WordSection1
  </o:shapelayout></xml><![endif]-->
 </head>
 
+<body lang=FR link="#0563C1" vlink="#954F72" style=\'tab-interval:35.4pt\'>
+
+<div class=WordSection1>
+
+<p class=MsoPlainText><span style=\'color:red\'>---==================================================---<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style=\'color:red\'>---<span style=\'mso-tab-count:
+2\'>                          </span>Ce message est à destination de
+' . $name . '<span style=\'mso-tab-count:1\'>            </span> ---<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style=\'color:red\'>---==================================================---<o:p></o:p></span></p>
+
+<p class=MsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=MsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=MsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=MsoPlainText>Hello,<o:p></o:p></p>
+
+<p class=MsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=MsoPlainText>Le tirage au sort du projet ' . $project_name . ' vous a
+associé à&nbsp;: ' . $target_name . '.<o:p></o:p></p>
+
+<p class=MsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=MsoPlainText>Cet email est envoyé par&nbsp;: <a
+href="http://****************.fr/">****************.fr</a> le site
+qui vous permet de créer vos tirages au sort en toute simplicité.<o:p></o:p></p>
+
+</div>
+
+</body>
+
 </html>';
 }
 
